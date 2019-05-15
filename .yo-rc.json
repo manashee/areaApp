@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "areaApp",
+    "packageName": "io.github.jhipster.areaapp",
+    "packageFolder": "io/github/jhipster/areaapp",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "ar-ly",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "MzIzYzlkYTkzNjdkMDYwNTJjYjAxMTU0MmNkNzJkZTE2YWE0NDM4MWFmODllYmNlZmM3OGQ1ODA0YWUzZDhmOWEyMjUyNzRjYWU3ZDJjMmY5MTA2MjY0NWYxMjViYjM3YmRlMzhmNTkyZjY3YjdmMWQxNTc4ZDg0MDJkZDNiZDk=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "manashee",
+  "repository-name": "areaApp"
+}
